@@ -1,0 +1,24 @@
+# Environments
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+key.txt
+.env
+*.key
+
+# Large data (downloadable separately, see README)
+corpora/
+mtrag-human/
+mtrag-synthetic/
+mtragun-human/
+fiqa_embed_cache/
+
+# Generated embeddings and large artifacts
+*_local_embeddings.pkl
+*_embeddings.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
